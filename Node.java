@@ -4,4 +4,8 @@ public class Node {
     Node(char data){
         this.data= data;
     }
+
+    public void dd(){
+        System.out.println("Data : " + data);
+    }
 }

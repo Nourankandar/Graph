@@ -11,6 +11,7 @@ public class GraphList {
     
     GraphList(){
         alist = new ArrayList<>();
+        System.out.println("hhhhhhh");
     }
     public void addNode(Node node){
         LinkedList<Node> currentList = new LinkedList<>();
